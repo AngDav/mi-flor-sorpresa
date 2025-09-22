@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Flor Amarilla Artística</title>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #FFDDAA; /* Un color de fondo suave que complementa el amarillo de la flor */
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            animation: fadeIn 2s ease-out;
+        }
+
+        .contenedor-flor {
+            text-align: center;
+            padding: 20px;
+            max-width: 90%;
+        }
+
+        .flor-imagen {
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+            filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.3));
+            animation: pulse 4s infinite ease-in-out;
+            border-radius: 15px; /* Bordes redondeados para un toque moderno */
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor-flor">
+        <img class="flor-imagen" src="C:\Users\zampa\Downloads\image-removebg-preview.png">
+        <h1>me encantas hermosa 🥺♥️♥️</h1> 
+    </div>
+</body>
+</html>
